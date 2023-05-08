@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_clear"
+        android:title="@string/action_clear"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_delete_24"/>
+    <item
+        android:id="@+id/action_color"
+        android:title="@string/action_color"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_palette_24"/>
+    <item
+        android:id="@+id/action_thickness"
+        android:title="@string/action_thickness"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_create_24"/>
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/action_save"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_save_24"/>
+</menu>

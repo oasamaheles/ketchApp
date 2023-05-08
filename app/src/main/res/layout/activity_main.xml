@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.sketchapp.CanvasView
+        android:id="@+id/canvas_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/color_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Color"
+            android:textAllCaps="false"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/width_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Width"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="@+id/color_button"
+            app:layout_constraintStart_toStartOf="@+id/color_button"
+            app:layout_constraintTop_toBottomOf="@+id/color_button" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Save Signature"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="@+id/width_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/width_button"
+            app:layout_constraintTop_toBottomOf="@+id/color_button" />
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toTopOf="@+id/width_button"
+            app:layout_constraintEnd_toEndOf="@+id/save_button"
+            app:layout_constraintStart_toStartOf="@+id/save_button"
+            app:layout_constraintTop_toTopOf="@+id/color_button"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

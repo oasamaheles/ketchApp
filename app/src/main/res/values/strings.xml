@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SketchApp</string>
+
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="color">Color</string>
+    <string name="line_width">Line Width</string>
+    <string name="signature">Signature</string>
+    <string name="storage_permission_required">Storage Permission Required</string>
+    <string name="permission_explanation">This app needs the storage permission to save your sketches.</string>
+    <string name="permission_required">Storage permission required</string>
+    <string name="sketch_saved">Sketch saved:</string>
+    <string name="error_saving_sketch">Error saving sketch:</string>
+
+    <string name="action_clear">Clear</string>
+    <string name="action_color">Color</string>
+    <string name="action_thickness">Thickness</string>
+    <string name="action_save">Save</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>
